@@ -1,2 +1,2 @@
-data/*.csv
-data_cleaned/*.csv
+data/
+data_cleaned/
