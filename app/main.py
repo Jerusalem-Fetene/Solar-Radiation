@@ -10,7 +10,7 @@ st.title("Cross-Country Solar Farm Analysis Dashboard")
 # --- Helper function to load data ---
 @st.cache_data # Cache data to improve performance
 def load_all_cleaned_data():
-    base_path = '../data/' # Assuming app/main.py is run from the root of the repo (e.g., solar-challenge-week1)
+    base_path = 'E:/KAIM/phase 2/Week 0/Solar-Radiation/ata_cleaned/' # Assuming app/main.py is run from the root of the repo (e.g., solar-challenge-week1)
 
     country_files = {
         'Benin': 'benin_clean.csv',
